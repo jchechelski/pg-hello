@@ -20,3 +20,10 @@ function deviceInfo() {
 	navigator.notification.alert(info);
 	
 }
+
+var button1 = document.getElementById('button1');
+button1.addEventListener('click', function() {
+	var me = 'jarek chechelski student wsei';
+	
+	navigator.notification.alert(me);
+});
