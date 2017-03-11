@@ -23,7 +23,7 @@ function deviceInfo() {
 
 var button1 = document.getElementById('button1');
 button1.addEventListener('click', function() {
-	var me = 'jarek chechelski student wsei';
+	me = 'jarek chechelski student wsei';
 	
 	navigator.notification.alert(me);
 });
