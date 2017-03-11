@@ -21,9 +21,16 @@ function deviceInfo() {
 	
 }
 
+function me() {
+	me = 'jarek chechelski student wsei';
+	
+	navigator.notification.alert(me);
+}
+/*
 var button1 = document.getElementById('button1');
 button1.addEventListener('click', function() {
 	me = 'jarek chechelski student wsei';
 	
 	navigator.notification.alert(me);
 });
+*/
